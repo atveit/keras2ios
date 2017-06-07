@@ -1,0 +1,56 @@
+./pyrun.sh keras_on_ios.py
+Using TensorFlow backend.
+Epoch 1/10
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+4/4 [==============================] - 0s - loss: 0.9198 - acc: 0.5000     
+Epoch 2/10
+4/4 [==============================] - 0s - loss: 0.9131 - acc: 0.5000     
+Epoch 3/10
+4/4 [==============================] - 0s - loss: 0.9093 - acc: 0.7500         
+Epoch 4/10
+4/4 [==============================] - 0s - loss: 0.9067 - acc: 0.7500     
+Epoch 5/10
+4/4 [==============================] - 0s - loss: 0.9036 - acc: 0.7500     
+Epoch 6/10
+4/4 [==============================] - 0s - loss: 0.9008 - acc: 0.7500     
+Epoch 7/10
+4/4 [==============================] - 0s - loss: 0.8982 - acc: 0.7500     
+Epoch 8/10
+4/4 [==============================] - 0s - loss: 0.8956 - acc: 0.7500         
+Epoch 9/10
+4/4 [==============================] - 0s - loss: 0.8933 - acc: 0.7500     
+Epoch 10/10
+4/4 [==============================] - 0s - loss: 0.8906 - acc: 0.7500         
+trying to save keras model to file
+Help on package coremltools.converters.keras in coremltools.converters:
+
+NAME
+    coremltools.converters.keras
+
+FILE
+    /usr/local/lib/python2.7/site-packages/coremltools/converters/keras/__init__.py
+
+DESCRIPTION
+    # Copyright (c) 2017, Apple Inc. All rights reserved.
+    #
+    # Use of this source code is governed by a BSD-3-clause license that can be
+    # found in the LICENSE.txt file or at https://opensource.org/licenses/BSD-3-Clause
+
+PACKAGE CONTENTS
+    _keras_converter
+    _layers
+    _topology
+    _utils
+
+
+None
+0 : dense_input_1, <keras.engine.topology.InputLayer object at 0x7f63d5e4f850>
+1 : dense_1, <keras.layers.core.Dense object at 0x7f63d5e4f7d0>
+2 : activation_1, <keras.layers.core.Activation object at 0x7f63d5e7d850>
+3 : dense_2, <keras.layers.core.Dense object at 0x7f63d5e0d850>
+4 : activation_2, <keras.layers.core.Activation object at 0x7f63d5e2ae90>

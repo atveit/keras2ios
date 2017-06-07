@@ -1,0 +1,9 @@
+keras==1.2.2
+tensorflow==1
+coremltools==0.3.0 # http://pythonhosted.org/coremltools/
+scikit-learn==0.15
+numpy==1.12
+protobuf==3.1
+pydot
+h5py
+
