@@ -1,9 +1,15 @@
-keras==1.2.2
-tensorflow==1
-coremltools==0.3.0 # http://pythonhosted.org/coremltools/
+#keras==1.2.2
+keras==2.0.8
+tensorflow==1.1
+#coremltools==0.3.0 # http://pythonhosted.org/coremltools/
+coremltools==0.6.3
 scikit-learn==0.15
 numpy==1.12
 protobuf==3.1
 pydot
 h5py
+nose
+nose-exclude
+nose-cov
+
 
