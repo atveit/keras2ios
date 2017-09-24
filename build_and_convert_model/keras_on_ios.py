@@ -18,7 +18,7 @@ model.add(Activation('sigmoid'))
 sgd = SGD(lr=0.1)
 model.compile(loss='binary_crossentropy', optimizer=sgd)
 
-model.fit(X, y, nb_epoch=1000, batch_size=1)
+model.fit(X, y, epochs=1000, batch_size=1)
 
 model.save('keras_weights.h5') # hdf5 format
 model_json_string = model.to_json()
